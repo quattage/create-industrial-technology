@@ -3,15 +3,15 @@
   "id": "crateindtech",
   "version": "${version}",
   "name": "Create Industrial Technology",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Industrial-themed addon for Create (Fabric)",
   "authors": [
     "quattage"
   ],
   "contact": {
-    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+    "sources": "https://github.com/quattage/create-industrial-technology"
   },
   "license": "CC0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/createindtech/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -19,12 +19,12 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "createindtech.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${fabric_loader_version}",
-    "fabric-api": ">=${fabric_api_version}",
-    "create": "${create_version}",
-    "minecraft": "${minecraft_version}"
+    "fabricloader": "0.14.11",
+    "fabric-api": "0.67.0+1.18.2",
+    "create": "0.5.0.g-836+1.18.2",
+    "minecraft": "1.18.2"
   }
 }
